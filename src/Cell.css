@@ -1,0 +1,21 @@
+.Cell {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: rgb(105, 103, 103);
+  cursor: pointer;
+  padding: 25px;
+}
+
+
+.Cell-lit {
+  background-color: rgb(238, 238, 176);
+
+  box-shadow:
+    0 0 15px 7px #fff,  
+    inset 0 0 15px 7px rgb(238, 240, 138),  /* inner white */
+    inset 0 0 25px 15px rgb(243, 227, 174), /* middle magenta */
+    inset 0 0 35px 22px rgb(245, 218, 196); /* outer cyan */
+  padding: 25px;
+  
+}

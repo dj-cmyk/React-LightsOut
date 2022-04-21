@@ -1,0 +1,13 @@
+.Board {
+  margin: 0 auto;
+  /* background-color: rgb(12, 12, 12); */
+  
+}
+
+.Board-win {
+  margin: 20px;
+  color: rgb(41, 187, 155);
+  text-shadow: 5px 8px black;
+  font-weight: bold;
+  font-size: 5em;
+}
